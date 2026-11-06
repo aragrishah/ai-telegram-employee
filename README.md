@@ -1,16 +1,14 @@
 # AI Telegram Employee 🤖
 
-An AI-powered virtual employee developed using n8n and OpenAI GPT-5-mini to automate administrative tasks through Telegram conversations.
-
-The assistant understands natural-language instructions and performs tasks such as scheduling Google Calendar events and sending emails through Gmail.
+An AI-powered Telegram assistant built using **n8n and OpenAI GPT-5-mini** to automate meeting scheduling and email communication through natural-language instructions.
 
 ## Features
 
-- **AI-Powered Assistant:** Understands and processes user instructions using OpenAI GPT-5-mini.
-- **Meeting Scheduling:** Creates Google Calendar events based on natural-language requests.
-- **Email Automation:** Sends emails through Gmail based on user instructions.
-- **Conversational Memory:** Maintains context across conversations using Simple Memory.
-- **Telegram Integration:** Receives user commands and sends automated responses through Telegram.
+- **AI Assistant:** Understands and processes user instructions.
+- **Meeting Scheduling:** Creates Google Calendar events through Telegram.
+- **Email Automation:** Sends emails using Gmail.
+- **Conversational Memory:** Maintains context across conversations.
+- **Telegram Integration:** Sends task confirmations directly to users.
 
 ## Tech Stack
 
@@ -19,24 +17,36 @@ The assistant understands natural-language instructions and performs tasks such 
 - Telegram Bot API
 - Google Calendar API
 - Gmail API
-- AI Agent
-- Simple Memory
 
 ## Workflow
 
-1. Telegram Trigger receives a message.
-2. AI Agent processes the user's request.
-3. OpenAI GPT-5-mini interprets the instruction.
-4. Simple Memory maintains conversational context.
-5. Google Calendar and Gmail tools execute the requested tasks.
-6. Telegram sends the response to the user.
+1. User sends a message through Telegram.
+2. OpenAI-powered AI Agent understands the request.
+3. Simple Memory maintains conversation context.
+4. The AI Agent uses Google Calendar or Gmail to perform the task.
+5. A response is sent back through Telegram.
 
-## Example
+## Project Screenshots
 
-**User Request:**
+### 1. Telegram Interaction
 
-"Schedule a meeting today at 5 PM on Google Meet and email the invitation to example@gmail.com regarding the upcoming course session."
+![Telegram Interaction](screenshots/telegram-interaction.png)
 
-**Result:**
+### 2. n8n Workflow
 
-The assistant creates a calendar event, sends an email, and confirms the completed actions through Telegram.
+![n8n Workflow](screenshots/n8n-workflow.png)
+
+### 3. Google Calendar Event
+
+![Google Calendar Event](screenshots/google-calendar-event.png)
+
+## Project Files
+
+- `AI-Telegram-Employee.json` – Exported n8n workflow.
+- `screenshots/` – Project screenshots.
+
+## Author
+
+**Riya Shah**
+
+Computer Engineering | AI & Data Science
