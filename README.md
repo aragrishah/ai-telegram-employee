@@ -26,19 +26,16 @@ An AI-powered Telegram assistant built using **n8n and OpenAI GPT-5-mini** to au
 4. The AI Agent uses Google Calendar or Gmail to perform the task.
 5. A response is sent back through Telegram.
 
-## Project Screenshots
+## 📸 Project Screenshots
 
 ### 1. Telegram Interaction
-
-![Telegram Interaction](screenshots/telegram-interaction.png)
+![Telegram Interaction](screenshots/telegram-interaction.jpg)
 
 ### 2. n8n Workflow
-
-![n8n Workflow](screenshots/n8n-workflow.png)
+![n8n Workflow](screenshots/n8n-workflow.jpg)
 
 ### 3. Google Calendar Event
-
-![Google Calendar Event](screenshots/google-calendar-event.png)
+![Google Calendar Event](screenshots/google-calendar-event.jpg)
 
 ## Project Files
 
